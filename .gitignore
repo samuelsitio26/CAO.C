@@ -1,37 +1,22 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
+# File objek kompilasi
 *.o
-*.so
+*.out
+*.exe
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# File dari build sistem
+Makefile
+CMakeLists.txt
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
+# File editor teks dan proyek
+*~
+*.swp
+.vscode/
+.idea/
 
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# File output atau hasil kompilasi
+output.txt
+result/
+
+# File konfigurasi sistem atau lingkungan
+config.ini
+config.json
