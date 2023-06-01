@@ -4,7 +4,7 @@
 gcc representasi_bilangan.c -o representasi_bilangan
 
 # Compile representasi_floating_point.c
-gcc representasi_floating_point.c -o representasi_floating_point
+gcc representasi_floatingpoint.c -o representasi_floatingpoint
 
 # Menjalankan program representasi_bilangan
 echo "Masukkan bilangan desimal:"
