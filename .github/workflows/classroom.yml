@@ -1,0 +1,40 @@
+name: Build and Run C Program
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up Git repository
+      uses: actions/checkout@v2
+
+    - name: Build program
+      run: gcc representasi_bilangan.c -o representasi_bilangan
+
+    - name: Run program
+      run: |
+        echo "Masukkan bilangan desimal:"
+        ./representasi_bilangan
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up Git repository
+      uses: actions/checkout@v2
+
+    - name: Build program
+      run: gcc representasi_floating_point.c -o representasi_floating_point
+
+    - name: Run program
+      run: |
+        echo "Masukkan angka floating-point:"
+        ./representasi_floating_point

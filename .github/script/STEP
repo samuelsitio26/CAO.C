@@ -1,1 +1,31 @@
-1
+#!/bin/bash
+
+# Compile representasi_bilangan.c
+gcc representasi_bilangan.c -o representasi_bilangan
+
+# Compile representasi_floating_point.c
+gcc representasi_floating_point.c -o representasi_floating_point
+
+# Menjalankan program representasi_bilangan
+echo "Masukkan bilangan desimal:"
+./representasi_bilangan
+
+# Menjalankan program representasi_floating_point
+echo "Masukkan angka floating-point:"
+./representasi_floating_point
+Langkah-langkah:
+
+Buat file baru di Visual Studio Code dengan nama, misalnya, setup.sh.
+
+Salin dan tempelkan script di atas ke dalam file setup.sh.
+
+Simpan file setup.sh.
+
+Buka terminal di Visual Studio Code.
+
+Jalankan perintah berikut untuk memberikan izin eksekusi ke file setup.sh:
+
+chmod +x setup.sh
+Jalankan script dengan perintah berikut di terminal:
+
+./setup.sh
