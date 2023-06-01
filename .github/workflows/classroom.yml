@@ -37,4 +37,4 @@ jobs:
     - name: Run program
       run: |
         echo "Masukkan angka floating-point:"
-        ./representasi_floating_point
+        ./representasi_floatingpoint
