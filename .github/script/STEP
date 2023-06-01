@@ -12,7 +12,7 @@ echo "Masukkan bilangan desimal:"
 
 # Menjalankan program representasi_floating_point
 echo "Masukkan angka floating-point:"
-./representasi_floating_point
+./representasi_floatingpoint
 Langkah-langkah:
 
 Buat file baru di Visual Studio Code dengan nama, misalnya, setup.sh.
