@@ -11,6 +11,7 @@ Ini adalah contoh program sederhana yang ditulis dalam bahasa C untuk merepresen
 
    ```bash
    gcc representasi_bilangan.c -o representasi_bilangan
+   representasi_bilangan
 
 (Pastikan Anda mengganti "representasi_bilangan" dengan nama yang sesuai jika Anda ingin memberikan nama lain pada output program.)
 
@@ -37,7 +38,8 @@ Compile program menggunakan perintah berikut:
 
    
    ```bash
-   gcc representasi_floating_point.c -o representasi_floating_point
+   gcc representasi_floatingpoint.c -o representasi_floatingpoint
+   representasi_floatingpoint
    ```
 
 
